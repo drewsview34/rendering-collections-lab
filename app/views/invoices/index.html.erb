@@ -1,3 +1,4 @@
 <h1>Invoices</h1>
 
-<%= render partial: 'invoice', locals: {invoice: invoice} %>
+
+<%= render(@invoices) || "No Invoices" %>
